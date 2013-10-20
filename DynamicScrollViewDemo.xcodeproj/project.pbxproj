@@ -19,6 +19,11 @@
 		1C8720CD1812BFC9009C119C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8720B51812BFC9009C119C /* UIKit.framework */; };
 		1C8720D51812BFC9009C119C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C8720D31812BFC9009C119C /* InfoPlist.strings */; };
 		1C8720D71812BFC9009C119C /* DynamicScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8720D61812BFC9009C119C /* DynamicScrollViewDemoTests.m */; };
+		1C8720E31812BFEE009C119C /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8720E11812BFEE009C119C /* CollectionViewController.m */; };
+		1C8720E41812BFEE009C119C /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C8720E21812BFEE009C119C /* CollectionViewController.xib */; };
+		1C8720E71812C031009C119C /* SpringFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8720E61812C031009C119C /* SpringFlowLayout.m */; };
+		1C8720EA1812C063009C119C /* CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8720E91812C063009C119C /* CollectionCell.m */; };
+		1C8720EC1812C087009C119C /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C8720EB1812C087009C119C /* CollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,14 @@
 		1C8720D21812BFC9009C119C /* DynamicScrollViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DynamicScrollViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		1C8720D41812BFC9009C119C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C8720D61812BFC9009C119C /* DynamicScrollViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicScrollViewDemoTests.m; sourceTree = "<group>"; };
+		1C8720E01812BFEE009C119C /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		1C8720E11812BFEE009C119C /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		1C8720E21812BFEE009C119C /* CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
+		1C8720E51812C031009C119C /* SpringFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringFlowLayout.h; sourceTree = "<group>"; };
+		1C8720E61812C031009C119C /* SpringFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringFlowLayout.m; sourceTree = "<group>"; };
+		1C8720E81812C063009C119C /* CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCell.h; sourceTree = "<group>"; };
+		1C8720E91812C063009C119C /* CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCell.m; sourceTree = "<group>"; };
+		1C8720EB1812C087009C119C /* CollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +120,14 @@
 		1C8720B71812BFC9009C119C /* DynamicScrollViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1C8720E51812C031009C119C /* SpringFlowLayout.h */,
+				1C8720E61812C031009C119C /* SpringFlowLayout.m */,
+				1C8720E01812BFEE009C119C /* CollectionViewController.h */,
+				1C8720E11812BFEE009C119C /* CollectionViewController.m */,
+				1C8720E21812BFEE009C119C /* CollectionViewController.xib */,
+				1C8720E81812C063009C119C /* CollectionCell.h */,
+				1C8720E91812C063009C119C /* CollectionCell.m */,
+				1C8720EB1812C087009C119C /* CollectionCell.xib */,
 				1C8720C01812BFC9009C119C /* AppDelegate.h */,
 				1C8720C11812BFC9009C119C /* AppDelegate.m */,
 				1C8720C31812BFC9009C119C /* Images.xcassets */,
@@ -219,8 +240,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C8720E41812BFEE009C119C /* CollectionViewController.xib in Resources */,
 				1C8720BC1812BFC9009C119C /* InfoPlist.strings in Resources */,
 				1C8720C41812BFC9009C119C /* Images.xcassets in Resources */,
+				1C8720EC1812C087009C119C /* CollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C8720E31812BFEE009C119C /* CollectionViewController.m in Sources */,
+				1C8720EA1812C063009C119C /* CollectionCell.m in Sources */,
 				1C8720C21812BFC9009C119C /* AppDelegate.m in Sources */,
+				1C8720E71812C031009C119C /* SpringFlowLayout.m in Sources */,
 				1C8720BE1812BFC9009C119C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
